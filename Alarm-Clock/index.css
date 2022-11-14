@@ -1,0 +1,130 @@
+
+body{
+    background-color: #212121;
+    margin-top: 5%;
+    margin-left: 40%; 
+    font-family: 'Times New Roman', Times, serif;
+     margin-right: 40%;
+    align-items: center;
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: white;
+    width: 250px;
+    height: 15%;
+    border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-left: 70px;
+    border: 4px double rgb(251, 73, 2);
+  
+
+}
+
+
+.timer{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#clock{
+    font-size: 3rem;
+    border-radius: 5px;
+
+    font-weight: bold;
+    color: rgb(251, 73, 2);
+
+}
+
+.alarm-heading{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding-top: 50px;
+
+}
+
+.set-alarm-field{
+    margin-top: -20px;
+    height: 40px;
+}
+
+.controls button{
+    background-color: #512062;
+    border-color: #512062;
+    color: whitesmoke;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:500;
+}
+.time-list button{
+    background-color: #512062;
+    border-color: #512062;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: whitesmoke;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button:hover{
+    background-color: #422051;
+}
+
+#myList{
+    list-style-type: none;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#myList li{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #512062;
+    height: 2rem;
+    margin-left: -30px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+.lastbtn{ 
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.time-list span{
+
+    width: 160px;
+    margin-right: 18px;
+    
+}
+
+
+
+
+
